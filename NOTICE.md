@@ -1,4 +1,4 @@
-# Local 0.52 lineage notice
+# Local 0.53 lineage notice
 
 Local modifications copyright 2026 Skaft Software.
 

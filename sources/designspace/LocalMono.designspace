@@ -4,7 +4,7 @@
     <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
   </axes>
   <sources>
-    <source filename="../../../dist/0.52/mono/static/LocalMono-Regular.ttf" name="LocalMono Regular" familyname="Local Mono" stylename="Regular">
+    <source filename="../../build/0.53/mono/static/LocalMono-Regular.ttf" name="LocalMono Regular" familyname="Local Mono" stylename="Regular">
       <lib copy="1"/>
       <features copy="1"/>
       <info copy="1"/>
@@ -12,7 +12,7 @@
         <dimension name="Weight" xvalue="400"/>
       </location>
     </source>
-    <source filename="../../../dist/0.52/mono/variable-masters/LocalMono-Bold.ttf" name="LocalMono Bold" familyname="Local Mono" stylename="Bold">
+    <source filename="../../build/0.53/mono/variable-masters/LocalMono-Bold.ttf" name="LocalMono Bold" familyname="Local Mono" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="700"/>
       </location>
