@@ -71,7 +71,7 @@ upstream licenses.
 
 ## Validation
 
-The 0.53 development build passes:
+The 0.53 release passes:
 
 - FontForge `fontlint` on all four static masters
 - OpenType Sanitizer on static, variable, and Nerd Font outputs

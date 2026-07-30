@@ -41,7 +41,9 @@ def files(include_checksum: bool = True) -> list[Path]:
     return sorted(
         path
         for path in selected
-        if include_checksum or path.name != "SHA256SUMS.txt"
+        if (include_checksum or path.name != "SHA256SUMS.txt")
+        and "__pycache__" not in path.parts
+        and path.suffix != ".pyc"
     )
 
 

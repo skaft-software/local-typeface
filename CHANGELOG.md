@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.53.0 — unreleased
+## 0.53.0 — 2026-07-30
 
 - Replaced hash-generated per-glyph wobble with a shared construction grammar.
 - Harmonized curve phase across bowls and shoulders.
