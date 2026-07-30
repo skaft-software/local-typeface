@@ -1,6 +1,6 @@
 # Local
 
-![Local 0.52 release specimen](specimens/Local-0.52-release-specimen.png)
+![Local 0.52 type specimen](specimens/Local-0.52-specimen-v2.png)
 
 Local is Skaft Software’s type system for interfaces, documentation, code,
 terminals, and open-source tools.
@@ -100,4 +100,3 @@ of clinical validation for dyslexia.
 
 See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), and [LICENSES](LICENSES) for
 the complete terms.
-
