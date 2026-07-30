@@ -4,7 +4,7 @@
     <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
   </axes>
   <sources>
-    <source filename="../../../dist/0.52/grotesk/static/LocalGrotesk-Regular.ttf" name="LocalGrotesk Regular" familyname="Local Grotesk" stylename="Regular">
+    <source filename="../../build/0.53/grotesk/static/LocalGrotesk-Regular.ttf" name="LocalGrotesk Regular" familyname="Local Grotesk" stylename="Regular">
       <lib copy="1"/>
       <features copy="1"/>
       <info copy="1"/>
@@ -12,7 +12,7 @@
         <dimension name="Weight" xvalue="400"/>
       </location>
     </source>
-    <source filename="../../../dist/0.52/grotesk/variable-masters/LocalGrotesk-Bold.ttf" name="LocalGrotesk Bold" familyname="Local Grotesk" stylename="Bold">
+    <source filename="../../build/0.53/grotesk/variable-masters/LocalGrotesk-Bold.ttf" name="LocalGrotesk Bold" familyname="Local Grotesk" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="700"/>
       </location>

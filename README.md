@@ -1,6 +1,6 @@
 # Local
 
-![Local 0.52 type specimen](specimens/Local-0.52-specimen-v2.png)
+![Local 0.53 type specimen](specimens/Local-0.53-specimen.png)
 
 Local is Skaft Software’s type system for interfaces, documentation, code,
 terminals, and open-source tools.
@@ -48,7 +48,7 @@ Both variable families support `wght` from 400 through 700.
 
 ## Build
 
-The checked-in SFD files are the canonical editable 0.52 masters. To rebuild
+The checked-in SFD files are the canonical editable 0.53 masters. To rebuild
 the core static and variable fonts:
 
 ```sh
@@ -58,10 +58,10 @@ python -m pip install -r requirements-dev.txt
 make build
 ```
 
-This requires FontForge on `PATH`. Rebuilt files are written to `build/0.52`
-so the signed-off release binaries remain untouched.
+This requires FontForge on `PATH`. Rebuilt files are written to `build/0.53`
+so the checked-in binaries remain untouched.
 
-The `build_release_052.py` and `build_control_052.py` scripts document the
+The `build_release_053.py` and `build_control_053.py` scripts document the
 deterministic transformations from the named upstream bases. They require
 local checkouts of the exact upstream sources described in `NOTICE.md`; those
 checkouts are intentionally not vendored here.
@@ -71,7 +71,7 @@ upstream licenses.
 
 ## Validation
 
-Release 0.52 passes:
+The 0.53 development build passes:
 
 - FontForge `fontlint` on all four static masters
 - OpenType Sanitizer on static, variable, and Nerd Font outputs
